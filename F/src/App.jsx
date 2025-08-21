@@ -6,7 +6,7 @@ function App() {
   useEffect(() => {
 
     const fetchData = async () => {
-      const response = await axios.get('http://localhost:3000/api/products')
+      const response = await axios.get('https://frontback-tufv.onrender.com/api/products')
       setProducts(response.data)
     }
     fetchData();
