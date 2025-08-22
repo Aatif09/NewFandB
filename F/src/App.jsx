@@ -12,7 +12,7 @@ function App() {
     fetchData();
   }, [])
   return (
-    <div>
+    <div className="App" >
       <h2>Welcome to my Page</h2>
       {products.map((product) => {
         return (
